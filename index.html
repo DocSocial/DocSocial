@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<title>Google Docs</title>
+
+	<button class="headerbutton" style="height:20px;width:60px" onclick="location.href='document'" type="button">About</button>
+
+	<p class="headertext"> Welcome to DocSocial. Last updated 18th March 2021. See the about page for more details.<br>
+	Invite other people by giving them the URL: <b>docsocial.tk</b></p>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha512/0.8.0/sha512.min.js"></script> <!-- why donald -->
+	<script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+	<!--<script type='text/javascript' src='http://0.0.0.0:8080/scaledrone.js'></script>-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" type="text/css" href="nut/s.css"/>
+
+</head>
+<body>
+	<div class="members-count">
+
+		<p id="mc1" class="members-count1">Loading...</p>
+		
+		<i id="mc2" class="members-count2"></i>
+
+	</div>
+	
+	<div class="members-list">Loading...</div>
+
+	<div class="messages"></div>
+	<form class="message-form" onsubmit="return false;">
+		<input class="message-form__input" maxlength="64" placeholder="Type a message..." type="text"/>
+		<input class="message-form__button" value="Send" type="submit"/>
+	</form>
+	<script src="nut/s.js"></script>
+</body>
+</html>

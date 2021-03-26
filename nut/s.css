@@ -1,0 +1,127 @@
+
+/* use https://cssminifier.com */
+	
+		@font-face {
+			font-family: lexendDeca;
+			src: url('/lexend.ttf');
+		}
+
+		.headerbutton {
+			border: 0px solid #ffffff;
+			margin: 5px;
+			max-width: 70px;
+			border-radius: 5px;
+			font-family: lexendDeca;
+			font-size: 14px;
+			padding-bottom: 22px;
+			padding-top: 5px;
+		}
+
+		.headertext {
+			text-align: center;
+		}
+
+		head {
+			display: flex; 
+		}
+
+		body {
+
+			/*background-color: black;*/
+			background-image: url("/chatroombg.png");
+			background-size: 100%;
+			background-repeat: no-repeat;
+			/*background-attachment: fixed;*/
+			/*color: lime;*/
+			/*box-sizing: border-box;*/
+			margin: 10;
+			width: 50% 50;
+			padding: 13px;
+			display: flex;  
+			flex-direction: column;
+			max-height: 81vh;
+			/*font-family: courier,arial,helvetica;*/
+			/*font-family: -apple-system, BlinkMacSystemFont, sans-serif;*/
+			font-family: lexendDeca;
+
+			margin-top: 7%;
+			margin-left: 22.5%;
+			margin-right: 25%;
+			/*margin-bottom: 25%;*/
+			
+		}
+
+		.members-count,
+		.members-list,
+		.messages {
+			background-color: #f8f9fa;
+			padding: 15px;
+			margin-bottom: 15px;
+			border-radius: 10px;
+		}
+
+		.members-list {
+			display: inline-flex;
+			overflow-x: auto;
+			overflow-y: hidden;
+			min-height: 20px;
+		}
+
+		.members-count2 {
+			color: #777777;
+			direction: rtl;
+		}
+
+		.messages {
+			flex-shrink: 1;
+			overflow-x: hidden;
+			overflow-y: auto;
+			max-height: 110vh;
+		}
+
+		.message {
+			padding: 5px 0;
+			word-wrap: break-word;
+		}
+		.message .member {
+			display: inline-block;
+		}
+
+		.member {
+			padding-right: 10px;
+			position: relative;
+		}
+
+		.message-form {
+			display: flex;
+			flex-shrink: 0;
+		}
+
+		.message-form__input {
+			flex-grow: 1;
+			padding: 10px 15px;
+			font-size: 16px;
+			border: 0px solid #ffffff;
+			background-color: #f8f9fa;
+			border-radius: 10px;
+			font-family: lexendDeca;
+		}
+
+		.message-form__button {
+			border: 0px solid #ffffff;
+			margin-left: 10px;
+			/*margin-top: 4px;
+			margin-bottom: 4px;*/
+			border-radius: 10px;
+			font-family: lexendDeca;
+			width: 8%;
+			min-width: 70px;
+			font-size: 14px;
+		}
+
+		input:focus,
+		select:focus,
+		textarea:focus,
+		button:focus {
+			outline: none;
+		}
