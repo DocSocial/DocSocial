@@ -8,13 +8,29 @@
 
 		.headerbutton {
 			border: 0px solid #ffffff;
+			background-color: #efefef;
 			margin: 5px;
 			max-width: 70px;
 			border-radius: 5px;
 			font-family: lexendDeca;
 			font-size: 14px;
+			padding-bottom: 22px;
+			padding-top: 5px;
 			padding: 5px 5px 5px 5px;
 			cursor: pointer;
+		}
+
+		button:hover {
+			transition: transform 0.2s;
+  		transform: scale(1.1);
+			background-color: #e7e7e7;
+		}
+
+		.copyright {
+			font-family: lexendDeca;
+			font-size: 9px;
+			position: relative;
+			float: right;
 		}
 
 		head {

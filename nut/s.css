@@ -8,6 +8,7 @@
 
 		.headerbutton {
 			border: 0px solid #ffffff;
+			background-color: #efefef;
 			margin: 5px;
 			max-width: 70px;
 			border-radius: 5px;
@@ -17,6 +18,19 @@
 			padding-top: 5px;
 			cursor: pointer;
 			position: relative;
+		}
+
+		button:hover {
+			transition: transform 0.2s;
+  		transform: scale(1.1);
+			background-color: #e7e7e7;
+		}
+
+		.copyright {
+			font-family: lexendDeca;
+			font-size: 9px;
+			position: relative;
+			float: right;
 		}
 
 		.headertext {
@@ -120,6 +134,12 @@
 			min-width: 70px;
 			font-size: 14px;
 			cursor: pointer;
+		}
+
+		.message-form__button:hover {
+			transition: transform 0.2s;
+  		transform: scale(1.1);
+			background-color: #e7e7e7;
 		}
 
 		input:focus,
