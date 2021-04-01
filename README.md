@@ -8,11 +8,11 @@ Domains:
 
 chatthing.rf.gd  -- Old broken version
 
-docs.heliodex.repl.co  -- Current use version
+docs.heliodex.repl.co  -- Deprecated version
 
 [top secret]  -- Testing area
 
-docsocial.tk -- Coming soon!
+docsocial.tk -- Main version
 
 
 There is also an extension available called 'Chatthing', it is no longer supported, doesn't allow you to choose your username, and doesn't allow the user to exit the chatroom, resulting in "ghost users".
