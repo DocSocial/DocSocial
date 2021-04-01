@@ -1,8 +1,15 @@
-
+ 
 <!DOCTYPE html>
 
 <html>
 <head>
+
+	
+
+	<title>Google Docs</title>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="nut/s.css"/>
+		
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha512/0.8.0/sha512.min.js"></script> <!-- why donald -->
 	<script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
@@ -10,38 +17,44 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" type="text/css" href="nut/s.css"/>
-
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<title>Google Docs</title>
-
-	<div>
-		<button class="headerbutton" style="height:20px;width:60px" onclick="location.href='/document'" type="button">About</button>
-		<button class="headerbutton" style="height:20px;width:60px" onclick="location.href='/spreadsheets'" type="button">EULA</button>
-		<p class="copyright">Copyright © Venimuex Inc., 2021</p>
-	</div>
-
-	<p class="headertext"> Welcome to DocSocial. Last updated 28th March 2021. See the about page for more details.<br>
-	Invite other people by giving them the URL: <b><a href="https://docsocial.tk/">docsocial.tk</a></b></p>
-
+	
 </head>
 <body>
-	<div class="members-count">
 
-		<p id="mc1" class="members-count1">Loading...</p>
-		
-		<i id="mc2" class="members-count2"></i>
-
+	<div>
+		<img class="header" src="/topbar.png"/>
 	</div>
-	
-	<div class="members-list">Loading...</div>
 
-	<div class="messages"></div>
-	<form class="message-form" onsubmit="return false;">
-		<input class="message-form__input" maxlength="64" placeholder="Type a message..." type="text"/>
-		<input class="message-form__button" value="Send" type="submit"/>
-	</form>
-	<script src="nut/s.js"></script>
+	
+
+	<div>
+
+
+		<div>
+			<button class="headerbutton" style="height:20px;width:60px" onclick="location.href='/document'" type="button">About</button>
+			<button class="headerbutton" style="height:20px;width:60px" onclick="location.href='/spreadsheets'" type="button">EULA</button>
+			<p class="copyright">Copyright © Venimuex Inc., <script>document.write(new Date().getFullYear());</script></p>
+		</div>
+
+		<p class="headertext"> Welcome to DocSocial. Last updated 1st April 2021.<br>Invite other people by giving them the link: <b><a href="https://docsocial.tk/">docsocial.tk</a></b></p>
+		
+		<div class="members-count">
+
+			<p id="mc1" class="members-count1">Loading...</p>
+			
+			<i id="mc2" class="members-count2"></i>
+
+		</div>
+		
+		<div class="members-list">Loading...</div>
+
+		<div class="messages"></div>
+		<form class="message-form" onsubmit="return false;">
+			<input class="message-form__input" maxlength="64" placeholder="Type a message..." type="text"/>
+			<input class="message-form__button" value="Send" type="submit"/>
+		</form>
+		<script src="nut/s.js"></script>
+	
+	</div>
 </body>
-</html>   
+</html>
