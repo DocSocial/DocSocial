@@ -10,7 +10,7 @@ docsocial.tk -- Main version
 
 docsocial.cf -- Master redirect version, to get around internet blocking
 
-docsocial2.ml -- Temporary unblock version, this WILL change. If it gets taken down, docsocial.cf will be changed to a new domain.
+docsocial2.ml -- Temporary unblock version, this WILL change. If it gets taken down, docsocial.cf will be changed to redirect to a new domain.
 
 chatthing.rf.gd  -- Old broken version
 
